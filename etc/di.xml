@@ -1,0 +1,6 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:ObjectManager/etc/config.xsd">
+    <!-- Service contracts -->
+    <preference for="Tidycode\MetaRobotsTag\Api\AttributesProviderInterface" type="Tidycode\MetaRobotsTag\Model\AttributesProvider"/>
+    <preference for="Tidycode\MetaRobotsTag\Api\SetMetaRobotsInterface" type="Tidycode\MetaRobotsTag\Model\SetMetaRobots"/>
+</config>
